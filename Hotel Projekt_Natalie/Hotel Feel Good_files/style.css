@@ -1,0 +1,79 @@
+h1{
+    color:black;
+    display: flex;
+    justify-content:center;
+    
+
+}
+.logo{
+    max-width: 40%;
+    display: flex;
+    justify-content: right;
+    
+    
+}
+
+nav{
+    background-color: rgba(199, 237, 237, 0.589);
+    color: black;
+    margin: 3%;
+    padding: 3%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+h2{
+    color:black;
+    display: flex;
+    justify-content: center
+
+
+}
+img{
+    max-width: 40%;
+    
+}
+body   { 
+	 
+	background-image: url("");
+	background-repeat:repeat;
+	
+    
+}
+
+section{
+    display: flex;
+    margin: 3%;
+    padding: 3%;
+}
+.box1{
+    display: flex;
+    background-color:rgba(199, 237, 202, 0.589);
+    
+    
+}
+.content{
+    flex: 1;
+}
+.image-description figcaption {
+    margin-top: 10px;
+}
+
+.box2{
+    display: flex;
+    background-color:rgba(199, 237, 202, 0.589);
+    flex-direction: row-reverse;
+}
+.box3{
+    background-color: rgba(199, 237, 202, 0.589);
+    display: flex;
+}
+.wellness{
+    display: flex;
+    justify-content: center;
+    ;
+
+
+
+}

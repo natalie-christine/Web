@@ -1,0 +1,188 @@
+h1 {
+    color: rgb(0, 0, 0);
+    display: flex;
+
+
+}
+
+.logo{
+    display: flex;
+    padding: 30px;
+    margin-left: 200px;
+    justify-content: space-between;
+}
+
+
+nav {
+    background-color: rgba(209, 175, 139, 0.589);
+    border-radius: 8px;
+    color: black;
+    padding: 1%;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    max-width: 40%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url("hotel_hintergrund.v2.jpg");
+	background-repeat:repeat;
+}
+
+.container {
+    margin: 50px auto;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 20px;
+    background-color: rgba(209, 175, 139, 0.589);
+    border-radius: 8px;
+   
+}
+
+h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+h3 {
+    display: flex;
+    margin-left: 30px;
+    justify-content: center;
+}
+
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+button[type="button"] {
+    background-color: #c25413;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+button[type="button"]:hover {
+    background-color: #ffffff;
+}
+
+.price-list {
+    width: 90%;
+    border-collapse: collapse;
+}
+
+.price-list th, .price-list td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+}
+
+.price-list th {
+    background-color: #b8b7b092;
+}
+
+.price-list tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.price-list tr:hover {
+    background-color: #a9937a;
+}
+
+.room {
+    display: flex;
+    margin: 3%;
+    padding: 3%;
+}
+
+.description {
+    flex: 1;
+    background-color: aquamarine;
+}
+
+.image-description figcaption {
+    margin-top: 10px;
+}
+
+
+.main section {
+    flex: 1;
+    margin: 10px;
+}
+
+.box1, .box3 {
+    display: flex;
+    background-color: rgba(209, 175, 139, 0.589);
+    border-radius: 8px;
+    margin: 3%;
+    padding: 3%;
+}
+
+.box2{
+    display: flex;
+    background-color: rgba(209, 175, 139, 0.589);
+    border-radius: 8px;
+    margin: 3%;
+    padding: 3%;
+    flex-direction: row-reverse;
+}
+
+.box1 img, .box2 img, .box3 img {
+    max-width: 100%;
+}
+
+.wellness {
+    display: flex;
+    justify-content: center;
+}
+.wellness-images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.wellness-images img {
+    display: flex;
+    max-width: 40%;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+
+}
+.untertexte{
+
+    margin-right: 30px;
+    margin-left: 30px;
+}
+

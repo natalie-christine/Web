@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hotel Feel Good</title>
+</head>
+<body>
+        <header id="Kopfzeile">
+            <h1><em>Hotel Feel Good</em></h1>
+
+        <section class="Logo">
+            
+
+            <img src="giphy.gif" alt="Logo" class="logo">
+
+        </section>
+         
+        
+        <nav class="navigationoben">
+            <a href="rooms.html">Zimmer</a>
+            <a href="price.html">Preise</a>
+            <a href="wellnes.html">Wellness</a>
+            
+        </nav>
+    </header >
+    <main>
+        <section class="box1">
+            <img src="Hotel_außen.jpeg" alt="">
+            <figcaption>Hotel Feel Good von Außen</figcaption>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti exercitationem eos illo dignissimos accusantium ipsa quis. Quisquam sequi quam aliquid voluptatum ea, consequuntur aspernatur itaque doloribus, eos id in officiis sint alias qui? Reiciendis, eius quis. Aliquid doloribus fugit velit, voluptas, corporis eveniet molestias similique at quas quos laborum quaerat.
+        </section>
+        <section class="box2">
+            <img src="hotel_bar.jpeg" alt="">
+            <figcaption>Hotelbar</figcaption>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, quidem iure delectus tempore debitis necessitatibus suscipit omnis, voluptas est odio fuga accusantium molestias iste in vitae aperiam qui nemo dolores consectetur placeat. Amet quaerat quibusdam minus fuga ut asperiores dolores labore nesciunt hic similique. Odio labore reiciendis eaque asperiores natus!</p>
+        </section>
+        <section class="box3">
+            <img src="hotel_relax.jpeg" alt="">
+            <figcaption>Unser Wellness-Berreich</figcaption>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores nihil hic aperiam repudiandae eius mollitia, magni veritatis nam autem facere dolorem laboriosam officia asperiores illo, iusto et quasi officiis.</p>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <a href="infos.html">Informationen: </a>
+            <a href="contact.html">Kontakt</a>
+            <a href="impressum.html">Impressum</a>
+        </nav>
+    </footer>
+</body>
+</html>

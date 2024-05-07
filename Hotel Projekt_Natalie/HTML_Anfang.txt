@@ -1,0 +1,93 @@
+Aller Anfang ist schwer.
+    <ol>
+        <li>Ich trinke gerne Kaffee</li>
+        <li>Ich mag meine drei Katzen</li>
+        <li>Mein Sohn muss heute in den Kindergarten</li>
+    </ol>
+    <h1><i>Hotel Feel Good in kursiv</i></h1>
+    <h2>Hotel Feel Good</h2>
+    <ul>
+        <li>Ich muss heute einkaufen gehen.</li>
+        <li>Warum ist hier kein Punkt?</li>
+        <li>Weil die Liste unter ul sein muss!</ul>
+    <p>
+        Absatz
+    </p>
+    <h3>Ich lerne programmieren</h3>
+    <h4>Diese Woche haben wir Web-Entwicklung</h4>
+    <h5>Das ist noch eine Überschrift</h5>
+    <h6>Das ist die kleinste Überschrift</h6>
+    <p>
+        Absatz machen. . . . 
+    </p>
+    <dl>
+    <ol>
+        <dt><li>Hierist eine Definitionsliste mit 1.</li
+            >Hier ist eine Definitionsliste ohne Zahl</dt>
+        <dl>Das ist ein Definitionstitel</dl>
+        <dd>Das sind Definiationsdaten</dd>
+        <dd>Hier noch eine Zeile</dd>
+    </dl>
+    </ol>
+    <blockquote "https://www.brainyquote.com/authors/tim-berners-lee-quotes">
+        <p>"Hier steht ein wunderschönes Zitat"</p>
+
+
+    </blockquote>
+   
+
+
+<form>
+<div>
+    <label for="name">Vorname</label>
+    <input type="text" name="name" id="name">
+</div>
+<div>
+    <label for="nachname">Nachname</label>
+    <input type="text" name="nachname" id="nachname">
+</div>
+<div>
+    <label for="Email">Email</label>
+    <input type="email" name="email" id="email">
+</div>
+<input type="submit">
+</form>
+<p>
+
+
+</p>
+
+<table border="1">
+    <thead> 
+        <tr>
+            <th>Vorname</th>
+            <th>Nachname</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Natalie</td>
+            <td>Schöfecker</td>
+            <td>natalie.schoefecker@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Thomas</td>
+            <td>Fröhlich</td>
+            <td>thomas.froehlich@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Matthias</td>
+            <td>Schöfecker</td>
+            <td>matthias.schoefecker@gmail.com</td>
+        </tr>
+    </tbody>
+</table>
+<img src="Hotel_außen.jpeg" alt="Hotel Feel Good">
+<figcaption>Hotel Feel Good von ausßen</figcaption>
+<p></p>
+<a href="infos.html">Informationen: </a>
+<a href="nach oben"</a></a>
+
+
+</body>
