@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Invoice Generator</title>
+</head>
+<body>
+<main>
+<section id="top">
+<div class="invoiceBoxTop">
+<h1>Invoice Generator</h1>
+    <p>Thanks for choosing GoodCorp,LLC!</p>
+</div>
+</section>
+<div class="invoiceBoxBottom">
+    <section class="buttonField">
+        <div><button onclick="addProduct(0)" >Wash Car: $ 10</button></div>
+        <div><button onclick="addProduct(1)" >Mow Lawn: $ 20</button></div>
+        <div><button onclick="addProduct(2)" >Pull Weeds: $ 30</button></div>
+    </section>
+    <section>
+        <table cellspacing="0"  >
+            <thead>
+            <tr>
+                <th class="left-th" >TASK <span></span></th>
+                <th class="right-th">TOTAL</th>
+            </tr>
+            </thead>
+            <tbody id="selected-service">
+            </tbody>
+            <tfoot>
+            <tr>
+                <th class="lastLine-left"></th>
+                <th class="lastLine-right"></th>
+            </tr>
+            <tr>
+                <td class="left-bottom">NOTES</td>
+                <td class="right-bottom"> TOTAL AMOUNT</td>
+            </tr>
+            <tr>
+                <td class="last-left">We accept cash, credit card or PayPal</td>
+                <td class="last-right"><span id="sum-el"></span></td>
+            </tr>
+            </tfoot>
+        </table>
+    </section>
+    <button class="send-Invoice" type="submit">
+        <span class="material-symbols-outlined">mail</span>   Send Invoice</button>
+</div>
+</main>
+
+<script src="index.js"></script>
+</body>
+</html>

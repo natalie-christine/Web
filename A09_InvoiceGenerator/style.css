@@ -1,0 +1,203 @@
+body{
+    display: flex;
+    background-color: #1C1C1C;
+    font-family: Inter, serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+}
+main{
+    padding-right: 20px;
+}
+h1 {
+    color: rgba(255, 255, 255, 1);
+
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    text-align: center;
+
+}
+.top {
+    display: flex;
+    justify-content: center;
+}
+
+p  {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+
+}
+
+.invoiceBoxTop {
+    padding-top: 20px;
+    background-color: rgba(58, 105, 210, 1);
+    color: white;
+    width: 550px;
+    height: 190px;
+}
+
+.invoiceBoxBottom {
+    background-color: rgba(31, 41, 55, 1);
+    width: 550px;
+    height: 500px
+;
+}
+
+
+.buttonField{
+    padding: 40px;
+    background-color: rgba(31, 41, 55, 1);
+    justify-content: center;
+    display: flex;
+    height: 45px;
+    gap: 20px;
+}
+
+button {
+    background-color: rgba(209, 212, 244, 1);
+    width: 143px;
+    height: 50px;
+    left: 38px;
+    font-size: 14px;
+    border-radius: 7px;
+    text-align: center;
+    padding: 4px;
+}
+
+.right {
+    height: 40px;
+    color: rgba(245, 245, 245, 1);
+    text-align: right;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+
+}
+
+.delete {
+    color: rgb(147, 145, 145);
+    font-size: 12px;
+    font-weight: 300;
+    text-align: left;
+    margin-left: 20px;
+
+}
+
+
+.left {
+    color: rgba(245, 245, 245, 1);
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+
+
+}
+
+.right-th {
+    height: 40px;
+    color: rgba(213, 212, 216, 1);
+    text-align: right;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+
+}
+.left-th {
+    color: rgba(213, 212, 216, 1);
+    text-align: left;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.td {
+    color: rgba(213, 212, 216, 1);
+}
+.left-bottom {
+    width: 600px;
+    color: rgba(213, 212, 216, 1);
+    text-align: left;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    height: 40px;
+}
+.right-bottom {
+    height: 40px;
+    width: 600px;
+    color: rgba(213, 212, 216, 1);
+    text-align: right;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.lastLine-right {
+    width: 600px;
+    border-bottom-style: solid;
+    color: white;
+}
+.lastLine-left {
+    border-bottom-style: solid;
+    color: white;
+}
+
+.last-left {
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+
+}
+.last-right {
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: right;
+
+
+}
+table {
+    background-color: rgba(31, 41, 55, 1);
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+
+
+.send-Invoice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 1);
+    margin: 40px;
+    background-color: rgba(58, 105, 210, 1);
+    width: 473px;
+    height: 50px;
+    top: 626px;
+    left: 38px;
+    font-size: 16px;
+    border-radius: 7px;
+    text-align: center;
+
+}
+
+ .material-symbols-outlined {
+     font-variation-settings:
+             'FILL' 0,
+             'wght' 400,
+             'GRAD' 0,
+             'opsz' 24;
+     margin-right: 10px;
+ }
+
+
