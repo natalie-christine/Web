@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Schere-Stein-Papier-Echse-Spock</title>
+</head>
+<body>
+<main>
+    <section class="top">
+        <div>
+            <h1>Schere-Stein-Papier-Echse-Spock</h1>
+            <p>Wie viele Runden möchtest du spielen? <input type="number" min="1"></p>
+            <div><button id="start" onclick="startgame()">Start</button></div>
+            <p class="points">Spielstand 0 : 0</p>
+            <div id="text-content"></div>
+        </div>
+    </section>
+
+    <section class="gameplay">
+        <p>Computer hat ausgewählt: </p>
+        <p>Deine Auswahl: </p>
+        <p></p>
+    </section>
+    <div class="ButtonBox">
+        <p>Wähle deine Waffe...</p>
+        <section class="buttonField">
+            <div><button onclick="chooseWeapon('Schere')">Schere</button></div>
+            <div><button onclick="chooseWeapon('Stein')">Stein</button></div>
+            <div><button onclick="chooseWeapon('Papier')">Papier</button></div>
+            <div><button onclick="chooseWeapon('Echse')">Echse</button></div>
+            <div><button onclick="chooseWeapon('Spock')">Spock</button></div>
+        </section>
+    </div>
+</main>
+<script src="index.js"></script>
+</body>
+</html>
