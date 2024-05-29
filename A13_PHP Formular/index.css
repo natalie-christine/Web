@@ -1,0 +1,104 @@
+body{
+    background-color: lightblue;
+    font-size: large;
+
+}
+h2{
+   color: rgb(25, 64, 123);
+}
+.container {
+    display: block;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: darkblue;
+}
+.formular, .form-group {
+    margin-bottom: 20px;
+}
+input[type = "password"],
+input[type="text"],
+input[type="email"],
+input[type="tel"],textarea {
+    width: 480px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+font-size: medium;
+
+
+}
+form{
+   margin-top: 20px;
+}
+
+input:hover{
+    background-color: #588695;
+}
+
+.form-group.anrede {
+    display: flex;
+    justify-content:left ;
+    padding-right: 70%;
+}
+
+.form-group.anrede label {
+    flex: 2;
+}
+
+input {
+    background-color: lightblue;
+    padding-right: 20px;
+}
+
+input[type="radio"] {
+   padding: 20px;
+
+}
+
+.logout {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(25, 64, 123);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(25, 64, 123);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.button:hover {
+    background-color: #588695;
+}
+
+textarea {
+    height: 150px;
+}
+
+.process{
+    background-color: #588695;
+    width: 400px;
+    border-radius: 10px;
+    font-size: x-large;
+}
