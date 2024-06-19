@@ -1,0 +1,8 @@
+button.btn.btn-danger.btn-sm {
+    width: 100px;
+    }
+
+button.btn.btn-secondary.btn-sm {
+    width: 100px;
+    margin-bottom: 10px;
+}
